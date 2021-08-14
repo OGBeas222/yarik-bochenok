@@ -2,7 +2,7 @@
   position: relative
   max-width: 1230px
   width: 90%
-  padding-top: 103px
+  padding-top: 260px
   padding-bottom: 103px
   padding-left: 0
   padding-right: 0
@@ -15,26 +15,36 @@
     font-size: 24px
     line-height: 140%
     text-transform: uppercase
-    margin-bottom: 25px
+    margin-bottom: 10px
+    &__1
+      display: flex
+
+      align-items: center
+      justify-content: center
+
   &-text
     width: 490px
     font-style: normal
     font-weight: normal
-    font-size: 18px
+    font-size: 29px
     line-height: 179.69%
     color: $white
   &__button
     display: block
     font-style: bold
-    font-size: 18px
-    min-width: 220px
-    padding: 13px 20px
+    font-size: 21px
+    min-width: 316px
+    padding: 20px 20px
     color: $white
     background-color: $theme
     border: 2px solid #FFFFFF
   &__fan
     color: $gray
-    margin-top: 5px
+    font-size: 15px
+    margin-top: 10px
+  &__circle
+    height: 330px
+    width: 330px
 .table
   &-row
     width: 300px
@@ -44,14 +54,19 @@
     font-family: Roboto
     font-style: normal
     font-weight: normal
-    font-size: 18px
+    font-size: 21px
     line-height: 179.69%
     color: $white
-
+    &--wallet
+      font-size: 21px
 .overviews
   margin: auto
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
 .table
-  margin-bottom: 218px
+  margin-bottom: 28px
 .rocket
   width: 444px
   height: 165vh
@@ -60,9 +75,15 @@
   right: 154px
   z-index: 99
 .join
-  max-width: 550px
-  margin-top: 180px
+  &--1
+    font-size: 18px
+    margin-bottom: 12px
+    display: flex
+    justify-content: space-between
+    align-items: center
   &__wrapper
+    max-width: 550px
+    margin-top: 18px
     display: flex
     align-items: start
     justify-content: space-between
